@@ -1,0 +1,20 @@
+.home_section {
+  display: flex;
+  padding: 30px;
+  align-items: center;
+  justify-content: center;
+}
+
+.home>h1 {
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+@media (max-width:650px) {
+  .home_section {
+    display: grid;
+    grid-template-columns: 400px;
+    grid-row-gap: 50px;
+  }
+}

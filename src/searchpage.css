@@ -1,0 +1,41 @@
+.Search_page {
+  display: flex;
+  height: 130vh;
+}
+
+.searchpage_info {
+  padding: 30px;
+  width: 60%;
+  height: 90vh;
+}
+
+.map {
+  width: 40%;
+  height: 100%;
+}
+
+iframe {
+  position: fixed;
+  top: 0;
+  width: 40%;
+  right: 0;
+  height: 100vh;
+  border: none;
+  outline: none;
+}
+
+.searchpage_info>h1 {
+  margin: 10px 0;
+}
+
+.searchpage_info button {
+  border-radius: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.searchpage_info .learn_more {
+  text-decoration: underline;
+  color: red;
+  cursor: pointer;
+}

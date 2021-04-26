@@ -1,0 +1,54 @@
+.searchresult {
+  display: flex;
+  position: relative;
+  cursor: pointer;
+  margin: 40px 0;
+  padding: 20px 0;
+  border-bottom: 1px solid lightgray;
+}
+
+.searchresult>img {
+  border-radius: 20px;
+}
+
+.ssearchresult_info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-left: 20px;
+}
+
+.searchpage_heart {
+  position: absolute;
+  top: 20px;
+  right: 100px;
+}
+
+.ssearchresult_infoTop>p {
+  color: gray;
+}
+
+.ssearchresult_infoBottom {
+  display: flex;
+  justify-content: space-between;
+}
+
+.ssearchresult_star {
+  color: red;
+}
+
+.ssearchresult_stars {
+  display: flex;
+  align-items: center;
+}
+
+.ssearchresult_price p:nth-child(2) {
+  font-size: 13px;
+}
+
+.ssearchresult_price {
+  text-align: right;
+  bottom: 20px;
+  position: absolute;
+  right: 100px;
+}

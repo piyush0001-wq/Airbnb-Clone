@@ -1,0 +1,59 @@
+.become_host {
+  background-image: url("https://a0.muscache.com/im/pictures/2595054e-d1d9-4fde-8046-58d51fcb3164.jpg?im_w=1200");
+  border-radius: 20px;
+  /* background: red; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+  width: 1200px;
+  object-fit: contain;
+}
+
+.become_host .info {
+  margin-top: 80px;
+  /* margin-left: 80px; */
+  color: white;
+  padding: 0 80px;
+}
+
+.info>h2 {
+  font-size: 45px;
+}
+
+.info>h4 {
+  font-size: 20px;
+  width: 40%;
+  margin-top: 20px;
+}
+
+.info>button {
+  background: white;
+  color: black;
+  outline: none;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 30px;
+  font-size: 15px;
+  margin-top: 30px;
+}
+
+@media (max-width:650px) {
+  .become_host {
+    height: 200px;
+    margin: 0 auto;
+    width: 350px;
+    object-fit: cover;
+    background-size: cover;
+  }
+  .become_host .info {
+    margin: 0px;
+    padding: 10px 20px;
+  }
+  .info>h2 {
+    font-size: 25px;
+  }
+  .info h4 {
+    font-size: 10px;
+    font-weight: normal;
+  }
+}

@@ -1,0 +1,70 @@
+.banner {
+  height: 70vh;
+  /* position: relative; */
+  background: url("https://cdn.pixabay.com/photo/2021/03/02/01/07/night-view-6061251_960_720.jpg") center center;
+  overflow: hidden;
+  object-fit: contain;
+}
+
+.banner_searchdate {
+  display: flex;
+  flex-direction: column;
+  background: rgb(206, 206, 206);
+}
+
+.banner_searchdate>button {
+  color: rgb(0, 0, 0) !important;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+.banner_info {
+  color: white;
+  background: rgba(18, 4, 36, 0.651);
+  line-height: 2;
+  width: 50%;
+  height: 70vh;
+  padding: 0 30px;
+  line-height: 50px;
+}
+
+.banner_info>h1 {
+  padding-top: 80px;
+}
+
+.banner_info button {
+  background: #ff7779;
+  color: white;
+  /* margin: 20px 0; */
+  padding: 5px 20px;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+.banner_info button:hover {
+  color: #ff7779;
+  background: white;
+}
+
+@media (max-width:650px) {
+  .banner {
+    height: 90vh;
+  }
+  .banner_info {
+    height: 90vh;
+    width: 100%;
+    padding: 140px 0;
+    margin: 0;
+    font-size: 14px;
+    line-height: 30px;
+    text-align: center;
+  }
+  .banner_info>h1, p {
+    padding: 0 40px;
+    margin: 0;
+  }
+  .banner_info p {
+    margin: 20px 0;
+    font-size: 20px;
+  }
+}
